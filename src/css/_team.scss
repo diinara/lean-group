@@ -1,0 +1,54 @@
+@mixin membSz(){
+    margin-right: 30px;
+    background-size: cover;
+    border-radius: 50%;
+}
+.team{
+    .title{
+        margin-bottom: 30px;
+    }
+    &__member{
+        margin-bottom: 200px;
+        width: 18%;
+        height: 235px;
+        float: left;
+        background-size: cover;
+    }
+    &__member1{
+        background: url('../images/team/person1.png') no-repeat;
+        @include membSz;
+    }
+    &__member2{
+        background: url('../images/team/person2.png') no-repeat;
+        @include membSz;
+    }
+    &__member3{
+        background: url('../images/team/person3.png') no-repeat;
+        @include membSz;
+    }
+    &__member4{
+        background: url('../images/team/person4.png') no-repeat;
+        @include membSz;
+    }
+    &__member5{
+        background: url('../images/team/person5.png') no-repeat;
+        background-size: cover;
+        border-radius: 50%;
+    }
+    &__btn {
+        width: 155px;
+        height: 40px;
+        border: 1px solid #EF7C00;
+        border-radius: 4px;
+        justify-content: center;
+        align-items: center;
+        display: flex;
+        margin-left: 50%;
+        transform: translate(-50%);
+        font-style: normal;
+        font-weight: 400;
+        font-size: 15px;
+        color: #EF7C00;
+        margin-bottom: 90px;
+    }
+}

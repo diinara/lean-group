@@ -1,0 +1,8 @@
+@import './variables';
+.certificates {
+    padding: 48px 0;
+    .title {
+        margin-bottom: 30px
+    }
+    @include sliderNav;
+}

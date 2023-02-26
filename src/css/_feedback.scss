@@ -1,0 +1,129 @@
+.feedback{
+    .block{
+        position: relative;
+        height: 376px;
+        background: url(../images/feedback/form_banner\ 1.png) center/cover;
+        margin: 90px 0 80px;
+        border-radius: 20px;
+        box-shadow: 0 0 40px rgba(136, 136, 136, 0.5);
+        padding-top: 24px;
+        padding-left: 20px;
+        &__title {
+            font-style: normal;
+            font-weight: 600;
+            font-size: 32px;
+            line-height: 40px;
+        }
+        &__subtitle {
+            padding-top: 16px;
+            font-style: normal;
+            font-weight: 400;
+            font-size: 15px;
+            line-height: 20px;
+            color: #2C2D2E;
+            width: 360px;
+        }
+        .info-box{
+            position: relative;
+            width: 217px;
+            height: 42px;
+            border-radius: 4px;
+            border: 1px solid rgba(0, 16, 61, 0.12);
+            top: 36px;
+            &_tel-area{
+                margin-left: 230px;
+                margin-top: -42px;
+            }
+            &__name-input {
+                position: absolute;
+                border: none;
+                background: none;       
+                outline: none;
+                float: right;
+                padding: 0;
+                font-size: 15px;
+                font-style: normal;
+                font-weight: 400;
+                color: #919399;
+                line-height: 42px;
+                margin-left: 45px;
+            }
+            &__name-icon-1{
+                position: absolute;
+                float: left;
+                width: 40px;
+                height: 41px;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                text-decoration: none;
+                border-right: 1px solid rgba(0, 16, 61, 0.12);
+            }
+            &__tel-input {
+                position: absolute;
+                border: none;
+                background: none;       
+                outline: none;
+                float: right;
+                padding: 0;
+                font-size: 15px;
+                font-style: normal;
+                font-weight: 400;
+                color: #919399;
+                line-height: 42px;
+                margin-left: 45px;
+            }
+            &__tel-icon-2{
+                position: absolute;
+                float: left;
+                width: 40px;
+                height: 41px;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                text-decoration: none;
+                border-right: 1px solid rgba(0, 16, 61, 0.12);
+            }
+            
+            
+        }
+        .comm-box {
+            width: 446px;
+            height: 80px;
+            border: 1px solid rgba(0, 16, 61, 0.12);
+            border-radius: 4px;
+            margin-top: 50px;
+            &__textarea{
+                width: 444px;
+                height: 78px;
+                border: none;
+                background: none;       
+                outline: none;
+                font-style: normal;
+                font-weight: 400;
+                font-size: 15px;
+                line-height: 20px;
+                color: #919399;
+                padding: 10px 12px;
+            }
+        }
+        .btn-box {
+            width: 225px;
+            height: 40px;
+            background: #EF7C00;
+            border-radius: 4px;
+            margin-top: 12px;
+        
+            &__btn {
+                font-style: normal;
+                font-weight: 400;
+                font-size: 15px;
+                text-align: center;
+                padding: 10px 30px ;
+                line-height: 40px;
+                color: #FFFFFF;
+            }
+        }
+
+    }
+}

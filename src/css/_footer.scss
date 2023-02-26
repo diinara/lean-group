@@ -1,0 +1,83 @@
+footer{
+    .nav{
+        display: flex;
+        justify-content: space-between;
+        &__logo{
+            margin-top: 30px;
+            margin-bottom: 10px;
+        }
+        .socialM{
+            height: 30px;
+            margin-top: 42px;
+            list-style: none;
+            display: flex;
+            align-items: flex-end;
+            gap: 24px;
+            margin-bottom: 20px;
+        }
+    }
+    .hr{
+        height: 1px;
+        background: #919399;
+        margin-bottom: 16px;
+    }
+    .coll{
+        display: flex;
+        .col-7{
+            display: flex;
+            .chaptr {
+            font-style: normal;
+            font-weight: 600;
+            font-size: 24px;
+            line-height: 28px;
+            color: #2C2D2E;
+            margin-bottom: 24px;
+            }
+            .tubs, .compny, .inform{
+                font-style: normal;
+                font-weight: 500;
+                font-size: 16px;
+                line-height: 24px;
+                color: #2C2D2E;
+                margin-bottom: 12px;
+            }
+        }
+        
+            
+        .col-5{
+            display: flex;
+            .city-1, .city-2, .city{
+                font-style: normal;
+                font-weight: 500;
+                font-size: 16px;
+                line-height: 24px;
+                color: #EF7C00;
+            }
+            .city-1{
+                margin-top: 45px;
+            }
+            .city-2{
+                margin-top: 24px;
+            }
+            .telNumb{
+                font-style: normal;
+                font-weight: 500;
+                font-size: 15px;
+                line-height: 20px;
+                color: #2C2D2E;
+
+            }
+        }
+    }
+    .leangr {
+        font-style: normal;
+        font-weight: 500;
+        font-size: 13px;
+        line-height: 13px;
+        color: #919399;
+        margin-top: 90px;
+        margin-bottom: 30px;
+    
+    }
+    
+}

@@ -1,0 +1,39 @@
+@mixin contMix ($f-weight, $f-size, $l-height, $clr){
+    font-style: normal;
+    font-weight: $f-weight;
+    font-size: $f-size;
+    line-height: $l-height;
+    color: $clr;
+}
+.contacts{
+    height: 1368px;
+    padding-top: 50px;
+    background: rgba(0, 16, 61, 0.06);
+    .title{
+        margin-bottom: 30px;
+    }
+    .cols{
+        display: flex;
+    }
+    .country {
+        @include contMix(500, 16px, 24px, #2C2D2E);
+        margin-bottom: 24px;
+    }
+    
+    .contTel {
+        @include contMix(500, 13px, 24px, #919399);
+    }
+    .contNumb, .contEmail, .contAddr {
+        @include contMix(400, 15px, 20px, #2C2D2E);
+    
+    }
+    
+    .contMail, .contAdd {
+        @include contMix(500, 13px, 13px, #919399);
+        margin-top: 12px;
+        margin-bottom: 8px;
+    }
+    .contAddr{
+        margin-bottom: 44px;
+    }
+}

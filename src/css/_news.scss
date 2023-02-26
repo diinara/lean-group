@@ -1,0 +1,25 @@
+.news{
+    .title{
+        margin-bottom: 30px;
+    }
+    .colgroup{
+        display: flex;
+        gap: 45px;
+    }
+    &__btn {
+        width: 137px;
+        height: 40px;
+        border: 1px solid #EF7C00;
+        border-radius: 4px;
+        justify-content: center;
+        align-items: center;
+        display: flex;
+        margin-left: 50%;
+        transform: translate(-50%);
+        font-style: normal;
+        font-weight: 400;
+        font-size: 15px;
+        color: #EF7C00;
+        margin-bottom: 41px;
+    }
+}

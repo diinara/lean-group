@@ -1,0 +1,60 @@
+@mixin fonts ($f-style, $f-weight, $f-size, $l-height){
+    font-style: $f-style;
+    font-weight: $f-weight;
+    font-size: $f-size;
+    line-height: $l-height;
+}
+@mixin place ($display, $a-items){
+    display: $display;
+    align-items: $a-items;
+}
+@mixin chrt ($color, $m-bottom){
+    color: $color;
+    margin-bottom: $m-bottom;
+}
+.home{
+    height: 525px;
+    .slide-item{
+        padding: 160px 0 155px;
+        &_first{
+            background: url('../images/home/slider1.jpg') center/cover;
+        }
+        &_second{
+            background: url('../images/home/slider2.jpg') center/cover;
+        }
+        &_third{
+            background: url('../images/home/slider3.jpg') center/cover;
+        }
+        &__title{
+            @include fonts(normal, 500, 13px, 13px);
+            @include place(flex, center);
+            @include chrt(#2C2D2E, 16px);
+        }
+        &__subtitle{
+            @include fonts(normal, 600, 32px, 40px);
+            @include place(flex, center);
+            @include chrt(#2C2D2E, 17px);
+        }
+        &__description{
+            @include fonts(normal, 400, 15px, 20px);
+            @include chrt(#2C2D2E, 16px);
+            width: 500px;
+        }
+        &__link{
+            @include fonts(normal, 400, 15px, 20px);
+            text-align: center;
+            color: #FFFFFF;
+            background: #EF7C00;
+            border-radius: 4px;
+            padding: 10px 20px;
+            display: inline-block;
+        }
+    }
+    .owl-theme .owl-nav.disabled+.owl-dots{
+        margin-top: 0;
+        position: absolute;
+        margin-top: -40px;
+        left: 116px;
+    }
+    
+}
